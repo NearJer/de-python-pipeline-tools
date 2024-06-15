@@ -8,8 +8,8 @@ package_version: str = "0.0.1"
 min_required_python_version: str = "3.9"
 max_supported_python_version: str = "3.12"
 
-package_name: str = "de-python-pipeline-tools"
-package_description: str = "data engineer pipeline tools not only for data engineer"
+package_name: str = "data-sdk-python"
+package_description: str = "platform data sdk python not only for data engineer"
 
 # check python compatible version
 detected_python_version: tuple = sys.version_info
@@ -47,8 +47,8 @@ setup(
     long_description_content_type="text/markdown",
     author="nearjer poor engineers",
     author_email="dchai@nearjer.com",
-    url="https://github.com/NearJer/de-python-pipeline-tools",
-    packages=find_namespace_packages(include=["deppt", "deppt.*"]),
+    url="https://github.com/NearJer/plt-data-sdk-python",
+    packages=find_namespace_packages(include=["dsp", "dsp.*"]),
     include_package_data=True,
     python_requires=f">={min_required_python_version}",
     install_requires=[],
